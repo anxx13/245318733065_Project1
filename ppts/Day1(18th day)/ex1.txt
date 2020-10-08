@@ -1,0 +1,15 @@
+{
+	"student":
+	[
+		{
+			"name":"a",
+			"rollno":"1",
+			"dept":"cse",
+		},
+		{
+			"name":"b",
+			"rollno":"2",
+			"dept":"it",
+		}
+	]
+}

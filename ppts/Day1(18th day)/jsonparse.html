@@ -1,0 +1,11 @@
+//how to use json parse
+//converts json strings to javascrip objs
+<p id="user"></p>
+
+<script>
+var person='{"name":"kmit","age":"22"}';
+var obj=JSON.parse(person);
+document.getElementById("user").innerHTML=
+							"Name: "+obj.name+" "+"<br>"+
+							"Age: "+obj.age;
+</script>

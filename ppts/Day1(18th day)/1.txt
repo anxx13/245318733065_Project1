@@ -1,0 +1,8 @@
+stand alone and distributed applications
+	Stand alone- client and server both in one machine
+	Distributed-client and server on differnt machine
+API and Platform
+diff between xml and json
+javascript and json differences
+json.parse()
+json.stringify()

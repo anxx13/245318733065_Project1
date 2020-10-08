@@ -1,0 +1,6 @@
+<p id="exercise2"></p>
+<script>
+var names=["james","jake"];
+var intojson=JSON.stringify(names);
+document.getElementById("exercise2").innerHTML=intojson;
+</script>

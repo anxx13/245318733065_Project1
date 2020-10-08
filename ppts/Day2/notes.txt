@@ -1,0 +1,7 @@
+nodejs-
+	runtime envn for executing java script code
+	usd to build backend services(api uhhhh???)
+node-fast and highly scalable
+	asynchronus by default
+	synchronous(ex:asp)
+cls to clear in powershell
