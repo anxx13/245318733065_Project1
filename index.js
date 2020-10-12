@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port=process.env.PORT || 8000; 
+var port=8000; 
 
 //connecting with server
 let server=require('./server');
@@ -67,7 +67,6 @@ app.put('/updateventilator',middleware.checkToken,(req,res) =>{
         var newvalue={$set :{status:req.body.status}};
         db.collection("ventilators").updateOne(ventid,newvalue,function(err,result){
                 res.json('1 document updated');
-                if(err) throw err;
         });
 
 });
@@ -90,7 +89,6 @@ app.delete('/deleteventbyvid',middleware.checkToken,(req,res) =>{
         var ventid=req.body.vid;
         var item={vid:ventid};
         db.collection('ventilators').deleteOne(item,function(err,obj){
-                if(err) throw err;
                 res.json("1 document deleted");
         });
 });
